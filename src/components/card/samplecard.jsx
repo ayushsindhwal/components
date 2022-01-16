@@ -2,7 +2,8 @@ import React from 'react'
 import { Typography, Card,Link } from '@mui/material';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import './sample.css'
+import styles from './sample.module.css';
+import { style } from '@mui/system';
 
 const Samplecard = () => {
 
@@ -23,24 +24,24 @@ const Samplecard = () => {
           }}
           position="top"
           actionIcon={
-            <span className='css-1smkz5r'>
+            <span className={styles.saleLogo}>
                 Sale
             </span>
           }
           actionPosition="right"
         />
       </ImageListItem>
-      <div className="css-ejcdc5">
+      <div className={styles.itemName}>
         <Link href="#" underline="hover" alignItems='center' color='#000' variant='subtitle2' sx={{ marginLeft: '3px' }} >
           {'Nike Air Force 1 NDESTRUKT'}
         </Link> 
-        <div className="css-1ialerq">
+        <div className={styles.footerCard}>
 
-      <span className="css-149gbl6">
-      <div className="css-n03y56"></div>
-      <div className="css-1gjqijf"></div>
+      <span className={styles.colorOption}>
+      <div className={styles.colorGreen}></div>
+      <div className={styles.colorBlack}></div>
       </span>
-          <div className='css-1iegyem'>
+          <div className={styles.price}>
           <Typography variant="body1" gutterBottom component="div">
         $616
       </Typography>

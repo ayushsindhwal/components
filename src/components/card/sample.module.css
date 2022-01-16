@@ -1,48 +1,5 @@
-.css-ejcdc5 {
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
 
-}
-
-.css-ejcdc5 > :not(style) + :not(style) {
-    margin: 16px 0px 0px;
-}
-.css-149gbl6 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.css-1iegyem {
-    display: flex;
-    flex-direction: row;
-}
-.css-1ialerq {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.css-1gjqijf {
-    margin-left: -4px;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 24%) -1px 1px 2px inset;
-    background-color: rgb(0, 0, 0);
-}
-.css-n03y56 {
-    margin-left: -4px;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 24%) -1px 1px 2px inset;
-    background-color: rgb(0, 171, 85);
-}
-
-.css-1smkz5r {
+.saleLogo {
     height: 22px;
     min-width: 22px;
     line-height: 0;
@@ -63,4 +20,49 @@
     z-index: 9;
     position: absolute;
     text-transform: uppercase;
+}
+.itemName {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+}
+
+.itemName > :not(style) + :not(style) {
+    margin: 16px 0px 0px;
+}
+.colorOption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footerCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.colorBlack {
+    margin-left: -4px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 24%) -1px 1px 2px inset;
+    background-color: rgb(0, 0, 0);
+}
+.colorGreen {
+    margin-left: -4px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 24%) -1px 1px 2px inset;
+    background-color: rgb(0, 171, 85);
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
 }
