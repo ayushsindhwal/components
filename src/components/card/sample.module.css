@@ -24,8 +24,19 @@
 .itemName {
     display: flex;
     flex-direction: column;
+    max-width: 18rem;
     padding: 24px;
+white-space:nowrap;
 
+
+}
+.links{
+    margin-left: 3px;    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .itemName > :not(style) + :not(style) {
@@ -65,4 +76,12 @@
 .price {
     display: flex;
     flex-direction: row;
+}
+.salePrice{
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(145, 158, 171);
+    text-decoration: line-through;
 }
